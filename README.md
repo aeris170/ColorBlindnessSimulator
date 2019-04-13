@@ -3,7 +3,7 @@ Simulation of all known color vision deficiencies. This application maps normal 
 
 ## Features:
   * Simulation of all known color vision deficiencies.
-  * Browsing mapped images on the original size.
+  * Preview mapped images on their original size.
   * Saving mapped images.
   * Adding custom filters.
 

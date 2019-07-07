@@ -18,7 +18,7 @@ import toplevel.ImageLabel;
 
 public class FilteredImagesPanel extends JPanel {
 
-	private static final long serialVersionUID = 3588418157818856777L;
+	private static final long serialVersionUID = 1L;
 
 	public static BufferedImage STOCK;
 	static {

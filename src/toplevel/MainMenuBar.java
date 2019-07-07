@@ -31,7 +31,7 @@ import previewimage.FilteredImagesPanel;
 
 public class MainMenuBar extends JMenuBar {
 
-	private static final long serialVersionUID = -4960426900534480969L;
+	private static final long serialVersionUID = 1L;
 
 	private JMenu file = new JMenu("File");
 	private JMenu extra = new JMenu("Extra");

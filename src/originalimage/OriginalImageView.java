@@ -15,7 +15,7 @@ import toplevel.Frame;
 
 public class OriginalImageView extends JFrame {
 
-	private static final long serialVersionUID = 4229096366875630283L;
+	private static final long serialVersionUID = 1L;
 
 	public OriginalImageView(String fileName, BufferedImage image, Filter filter) {
 		BufferedImage filteredImage = Filter.filterImage(image, filter);

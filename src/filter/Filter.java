@@ -37,12 +37,13 @@ public class Filter {
 		BufferedImage filteredImage = new BufferedImage(source.getWidth(), source.getHeight(), BufferedImage.TYPE_INT_ARGB);
 		for (int xx = 0; xx < source.getWidth(); xx++) {
 			for (int yy = 0; yy < source.getHeight(); yy++) {
-				Color pixelColor = new Color(source.getRGB(xx, yy));
+				Color pixelColor = new Color(source.getRGB(xx, yy), true);
 				int red = pixelColor.getRed();
 				int green = pixelColor.getGreen();
 				int blue = pixelColor.getBlue();
+				int alpha = pixelColor.getAlpha();
 				int[] newRGB = mult(new float[] { red, green, blue }, f.imageFilter);
-				Color newPixelColor = new Color(newRGB[0], newRGB[1], newRGB[2]);
+				Color newPixelColor = new Color(newRGB[0], newRGB[1], newRGB[2], alpha);
 				filteredImage.setRGB(xx, yy, newPixelColor.getRGB());
 			}
 		}

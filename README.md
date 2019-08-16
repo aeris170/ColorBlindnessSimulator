@@ -1,4 +1,5 @@
 # Color-Blindness-Simulator
+![social](https://repository-images.githubusercontent.com/179771882/92e4c500-a28f-11e9-9d28-4ca14523a2bf)
 Simulation of all known color vision deficiencies. This application maps normal vision to known color vision deficiency ranges.
 
 ## Features:
